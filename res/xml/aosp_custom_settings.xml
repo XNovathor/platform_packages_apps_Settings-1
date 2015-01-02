@@ -38,6 +38,13 @@
         android:summary="@string/battery_summary" >
     </PreferenceScreen>
     
+    <!-- Notification drawer -->
+    <PreferenceScreen	
+        android:fragment="com.android.settings.aosp.NotificationDrawerSettings"
+        android:key="notification_drawer_general_category"
+        android:icon="@drawable/ic_settings_notification_drawer"
+        android:title="@string/notification_drawer_title" />
+    
     <!-- STweaks -->
     <PreferenceScreen
         android:id="@+id/stweaks_settings"
