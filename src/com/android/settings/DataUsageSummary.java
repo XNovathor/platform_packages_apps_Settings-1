@@ -780,12 +780,9 @@ public class DataUsageSummary extends HighlightingFragment implements Indexable 
             setPreferenceTitle(mDisableAtLimitView, R.string.data_usage_disable_mobile_limit);
             mDataEnabledSupported = isMobileDataAvailable(getSubId(currentTab));
 
-            // Match mobile traffic for this subscriber, but normalize it to
-            // catch any other merged subscribers.
+            // Match mobile traffic for this subscriber
             mTemplate = buildTemplateMobileAll(
                     getActiveSubscriberId(context, getSubId(currentTab)));
-            mTemplate = NetworkTemplate.normalize(mTemplate,
-                    mTelephonyManager.getMergedSubscriberIds());
 
         } else if (TAB_3G.equals(currentTab)) {
             if (LOGD) Log.d(TAG, "updateBody() 3g tab");
