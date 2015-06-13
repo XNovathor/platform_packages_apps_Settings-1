@@ -6050,4 +6050,21 @@
    <string name="imei_information_summary">IMEI relative information</string>
    <string name="slot_number">(Slot<xliff:g id="slot_num">%1$d</xliff:g>)</string>
 
+    <!-- Button backlight  -->
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g>second</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g>seconds</item>
+    </plurals>
+    <string name="button_pref_title">Buttons</string>
+    <string name="button_backlight_title">Backlight</string>
+    <string name="button_backlight_enabled">Illuminate buttons</string>
+    <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
+    <string name="button_backlight_seekbar_title">Button brightness</string>
+    <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
+    <string name="backlight_timeout_title">Illumination timeout</string>
+    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
+    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Enabled</string>
+    
 </resources>
