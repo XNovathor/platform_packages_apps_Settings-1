@@ -781,8 +781,7 @@ public class DataUsageSummary extends HighlightingFragment implements Indexable 
             mDataEnabledSupported = isMobileDataAvailable(getSubId(currentTab));
 
             // Match mobile traffic for this subscriber
-            mTemplate = buildTemplateMobileAll(
-                    getActiveSubscriberId(context, getSubId(currentTab)));
+            mTemplate = buildTemplateMobileAll(getActiveSubscriberId(context));
 
         } else if (TAB_3G.equals(currentTab)) {
             if (LOGD) Log.d(TAG, "updateBody() 3g tab");
