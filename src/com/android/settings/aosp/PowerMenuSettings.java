@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.jdcteam;
+package com.android.settings.aosp;
 
 import android.content.Context;
 import android.content.Intent;
@@ -63,7 +63,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.nexus_powermenu_settings);
+        addPreferencesFromResource(R.xml.aosp_powermenu_settings);
         mContext = getActivity().getApplicationContext();
 
         mAvailableActions = getActivity().getResources().getStringArray(

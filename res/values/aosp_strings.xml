@@ -9,9 +9,11 @@
     
     <!-- Dashboard -->
     <string name="custom_settings_title">Custom Settings</string>
+    <string name="header_category_custom">Rom Control</string>
     
-    <string name="power_menu_title">Power menu</string>
     <!-- Power menu -->
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_summary">Handle power menu options</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_airplane_title">Airplane mode</string>

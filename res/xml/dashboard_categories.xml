@@ -84,6 +84,8 @@
             android:icon="@drawable/ic_bt_config"
             />
     
+    </dashboard-category>
+    
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"

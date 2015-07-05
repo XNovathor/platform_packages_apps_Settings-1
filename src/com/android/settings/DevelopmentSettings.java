@@ -267,8 +267,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
                 findPreference(DEBUG_DEBUGGING_CATEGORY_KEY);
 
         mEnableAdb = findAndInitSwitchPref(ENABLE_ADB);
-        mAdbNotify = (SwitchPreference) findPreference(ADB_NOTIFY);
-        mAllPrefs.add(mAdbNotify);
         mClearAdbKeys = findPreference(CLEAR_ADB_KEYS);
         if (!SystemProperties.getBoolean("ro.adb.secure", false)) {
             if (debugDebuggingCategory != null) {
@@ -553,7 +551,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         }
         resetDebuggerOptions();
         writeLogdSizeOption(null);
-        resetAdbNotifyOptions();
         resetVerifyAppsOverUsbOptions();
         writeAnimationScaleOption(0, mWindowAnimationScale, null);
         writeAnimationScaleOption(1, mTransitionAnimationScale, null);
@@ -568,11 +565,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateAllOptions();
         mDontPokeProperties = false;
         pokeSystemProperties();
-    }
-
-    private void resetAdbNotifyOptions() {
-        Settings.Secure.putInt(getActivity().getContentResolver(),
-                Settings.Secure.ADB_NOTIFY, 1);
     }
 
     private void updateHdcpValues() {

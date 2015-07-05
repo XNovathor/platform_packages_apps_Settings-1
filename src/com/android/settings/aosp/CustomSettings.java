@@ -23,6 +23,7 @@ import android.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.Utils;
 
 public class CustomSettings extends SettingsPreferenceFragment {
 

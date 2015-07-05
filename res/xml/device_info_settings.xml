@@ -40,13 +40,6 @@
                     android:targetPackage="com.android.settings"
                     android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
-
-        <!-- Change Log -->
-        <PreferenceScreen android:key="changelog"
-            android:title="@string/changelog_title"
-            android:summary="@string/changelog_summary"
-            android:fragment="com.android.settings.aosp.ChangeLog" >
-        </PreferenceScreen>
         
         <!-- Legal Information -->
         <PreferenceScreen
