@@ -6,5 +6,21 @@
     <string name="changelog_summary">AOSP 5.1.1 changelog</string>
     <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">Unable to load changelog</string>
+    
+    <!-- Dashboard -->
+    <string name="custom_settings_title">Custom Settings</string>
+    
+    <string name="power_menu_title">Power menu</string>
+    <!-- Power menu -->
+    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_settings_title">Settings shortcut</string>
+    <string name="power_menu_lockdown_title">Device lockdown</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    
 </resources>
  

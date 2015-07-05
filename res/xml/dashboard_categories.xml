@@ -71,6 +71,19 @@
 
     </dashboard-category>
 
+    <!-- Rom Control -->
+    <dashboard-category
+        android:id="@+id/custom_section"
+        android:title="@string/header_category_custom" >
+        
+        <!-- Custom Settings -->
+        <dashboard-tile
+            android:id="@+id/custom_settings"
+            android:title="@string/custom_settings_title"
+            android:fragment="com.android.settings.aosp.CustomSettings"
+            android:icon="@drawable/ic_bt_config"
+            />
+    
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"
