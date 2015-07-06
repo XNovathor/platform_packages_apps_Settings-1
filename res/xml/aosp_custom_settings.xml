@@ -15,13 +15,13 @@
         android:title="@string/custom_settings_title" >
 
     <!-- Power menu settings -->
-    <!--<PreferenceScreen
+    <PreferenceScreen
         android:fragment="com.android.settings.aosp.PowerMenuSettings"
         android:key="power_menu_category"
         android:icon="@drawable/ic_settings_power_menu"
         android:summary="@string/power_menu_summary"
         android:title="@string/power_menu_title" >
-    </PreferenceScreen>-->
+    </PreferenceScreen>
     
     
     <!-- Change Log -->
