@@ -1218,17 +1218,8 @@ public class SettingsActivity extends Activity
                             UserManager.DISALLOW_DEBUGGING_FEATURES)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.stweaks_settings) {
-                    // Check STweaks is installed
-                    try {
-                        // Do we find it?
-                        String packageName = "com.gokhanmoral.stweaks.app";
-                        getPackageManager().getPackageInfo(packageName, PackageManager.GET_ACTIVITIES);
-                    } catch (NameNotFoundException e) {
-                        // Obviously not, remove the tile
-                        removeTile = true;
-                    }
-                }
+                } 
+        
                 if (UserHandle.MU_ENABLED && UserHandle.myUserId() != 0
                         && !ArrayUtils.contains(SETTINGS_FOR_RESTRICTED, id)) {
                     removeTile = true;

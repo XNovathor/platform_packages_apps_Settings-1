@@ -24,11 +24,8 @@
     <string name="custom_settings_title">Custom Settings</string>
     <string name="header_category_custom">AOSP Control</string>    
     
-    <!-- Custom Categorys -->
-    <string name="status_bar_title">Battery Options</string>
-    <string name="power_menu_title">Power menu</string>
-    
     <!-- Power menu -->
+    <string name="power_menu_title">Power menu</string>
     <string name="power_menu_summary">Handle power menu options</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
@@ -41,6 +38,7 @@
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     
     <!-- Battery Options -->
+    <string name="status_bar_title">Battery Options</string>
     <string name="status_bar_summary">Change the battery style on the statusbar</string>
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
@@ -53,5 +51,13 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
+    <!-- STweaks -->
+    <string name="stweaks_title">STweaks</string>
+    <string name="stweaks_summary">Change Alucard kernel configuration</string>
+    
+    <!-- LayersManager -->
+    <string name="layers_title">Layers Manager</string>
+    <string name="layers_summary">BitSyko Application for manage RRO</string>
+    
 </resources>
  

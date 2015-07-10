@@ -29,6 +29,28 @@
         android:summary="@string/status_bar_summary" >
     </PreferenceScreen>
     
+    <!-- STweaks -->
+    <PreferenceScreen
+        android:id="@+id/stweaks_settings"
+        android:title="@string/stweaks_title"
+        android:summary="@string/stweaks_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.gokhanmoral.stweaks.app"
+            android:targetClass="com.gokhanmoral.stweaks.app.MainActivity"/>
+    </PreferenceScreen>
+    
+    <!-- LayersManager -->
+    <PreferenceScreen
+        android:id="@+id/layers_settings"
+        android:title="@string/layers_title"
+        android:summary="@string/layers_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.lovejoy777.rroandlayersmanager"
+            android:targetClass="com.lovejoy777.rroandlayersmanager.menu"/>
+    </PreferenceScreen>
+    
     <!-- Change Log -->
     <PreferenceScreen android:key="changelog"
         android:title="@string/changelog_title"
