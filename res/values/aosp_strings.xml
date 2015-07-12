@@ -59,5 +59,9 @@
     <string name="layers_title">Layers Manager</string>
     <string name="layers_summary">BitSyko Application for manage RRO</string>
     
+    <!-- SuperSU -->
+    <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Superuser application by ChainFire</string>
+    
 </resources>
  

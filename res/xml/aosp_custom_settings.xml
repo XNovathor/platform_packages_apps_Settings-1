@@ -51,6 +51,17 @@
             android:targetClass="com.lovejoy777.rroandlayersmanager.menu"/>
     </PreferenceScreen>
     
+    <!-- SuperSU -->
+    <PreferenceScreen
+        android:id="@+id/supersu_settings"
+        android:title="@string/supersu_title"
+        android:summary="@string/supersu_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="eu.chainfire.supersu"
+            android:targetClass="eu.chainfire.supersu.MainActivity" />
+    </PreferenceScreen>
+    
     <!-- Change Log -->
     <PreferenceScreen android:key="changelog"
         android:title="@string/changelog_title"
