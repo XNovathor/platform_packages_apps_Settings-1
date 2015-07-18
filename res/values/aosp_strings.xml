@@ -21,8 +21,7 @@
     <string name="changelog_error">Unable to load changelog</string>
     
     <!-- Dashboard -->
-    <string name="custom_settings_title">Custom Settings</string>
-    <string name="header_category_custom">AOSP Control</string>    
+    <string name="header_category_custom">AOSP Settings</string>    
     
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
