@@ -21,11 +21,18 @@
     <string name="changelog_error">Impossibile caricare il changelog</string>
     
     <!-- Dashboard -->
-    <string name="header_category_custom">Impostazioni AOSP</string>    
+    <string name="custom_settings_title">Impostazioni AOSP</string>    
 
+    <!-- Power menu -->
+    <string name="power_menu_summary">Permette di gestire le opzioni nel menù di spegnimento</string>
+    
+    <!-- Battery Options -->
+    <string name="battery_title">Opzioni Batteria</string>
+    <string name="battery_summary">Modifica lo stile della batteria nella barra di stato</string>
+    
     <!-- STweaks -->
     <string name="stweaks_title">STweaks</string>
-    <string name="stweaks_summary">App per la configurazione del kernel Alucard</string>
+    <string name="stweaks_summary">Applicazione per la configurazione del kernel Alucard</string>
     
     <!-- LayersManager -->
     <string name="layers_title">Layers Manager</string>

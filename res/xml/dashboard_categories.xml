@@ -228,7 +228,7 @@
         <!-- Custom Settings -->
         <dashboard-tile
                 android:id="@+id/custom_settings"
-                android:title="@string/header_category_custom"
+                android:title="@string/custom_settings_title"
                 android:fragment="com.android.settings.aosp.CustomSettings"
                 android:icon="@drawable/ic_bt_config"
                 />

@@ -21,7 +21,7 @@
     <string name="changelog_error">Unable to load changelog</string>
     
     <!-- Dashboard -->
-    <string name="header_category_custom">AOSP Settings</string>    
+    <string name="custom_settings_title">AOSP Settings</string>    
     
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
@@ -37,8 +37,8 @@
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     
     <!-- Battery Options -->
-    <string name="status_bar_title">Battery Options</string>
-    <string name="status_bar_summary">Change the battery style on the statusbar</string>
+    <string name="battery_title">Battery Options</string>
+    <string name="battery_summary">Change the battery style on the statusbar</string>
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
