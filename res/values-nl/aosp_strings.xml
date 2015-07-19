@@ -31,7 +31,7 @@
   <string name="stweaks_summary">Wijzig Alucard kernel configuratie</string>
   <!-- LayersManager -->
   <string name="layers_title">Layers Manager</string>
-  <string name="layers_summary">BitSyko App om RRO thema's in te stellen</string>
+  <string name="layers_summary">BitSyko App om RRO thema\'s in te stellen</string>
   <!-- SuperSU -->
   <string name="supersu_title">SuperSU</string>
   <string name="supersu_summary">Superuser App door ChainFire</string>

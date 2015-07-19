@@ -28,7 +28,7 @@
      
     <!-- Battery Options -->
     <string name="battery_title">Options de batterie</string>
-    <string name="battery_summary">Changer le style de la batterie sur la barre d'état</string>
+    <string name="battery_summary">Changer le style de la batterie sur la barre d\'état</string>
  
     <!-- STweaks -->
     <string name="stweaks_title">STweaks</string>
