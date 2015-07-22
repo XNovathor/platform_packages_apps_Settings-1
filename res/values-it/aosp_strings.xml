@@ -26,6 +26,25 @@
     <!-- Power menu -->
     <string name="power_menu_summary">Permette di gestire le opzioni nel menù di spegnimento</string>
     
+    <!-- Recent apps -->
+    <string name="recent_app_title">Applicazioni Recenti</string>
+    <string name="recent_app_summary">Opzioni varie per la schermata delle applicazioni recenti</string>
+    <string name="recents_longpress_title">Pressione prolungata tasto</string>
+    <string name="recents_longpress_summary">La pressione prolungata del tasto aprirà l\' applicazione aperta più recente</string>
+    <string name="show_clear_all_recents_button_title">Tasto pulizia app recenti</string>
+    <string name="show_clear_all_recents_button_summary">Mostra il tasto per la pulizia delle applicazioni recenti</string>
+    <string name="recents_clear_all_location_title">Posizione tasto</string>
+    <string name="recents_clear_all_location_top_right">In alto a destra</string>
+    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+    <string name="recents_clear_all_location_top_center">In alto al centro</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
+    <string name="recents_searchbar_title">Barra di ricerca</string>
+    <string name="recents_searchbar_summary">Mostra la barra di ricerca Google nella schermata delle applicazioni recenti</string>
+    <string name="recents_clear_all_dismiss_all_title">Chiudi tutte le applicazioni</string>
+    <string name="recents_clear_all_dismiss_all_summary">Includi anche la prima applicazione della lista quando vengono chiuse tutte le applicazioni</string>
+
     <!-- Battery Options -->
     <string name="battery_title">Opzioni Batteria</string>
     <string name="battery_summary">Modifica lo stile della batteria nella barra di stato</string>
