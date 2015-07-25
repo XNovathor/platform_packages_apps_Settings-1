@@ -59,5 +59,8 @@
     <string name="supersu_title">SuperSU</string>
     <string name="supersu_summary">Applicazione per i permessi di superutente creata da ChainFire</string>
     
+    <!-- Notification drawer -->
+    <string name="notification_drawer_summary">Permette di modificare posizione e numero dei tile</string>
+    
 </resources>
  

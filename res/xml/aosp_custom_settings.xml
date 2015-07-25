@@ -42,8 +42,9 @@
     <PreferenceScreen	
         android:fragment="com.android.settings.aosp.NotificationDrawerSettings"
         android:key="notification_drawer_general_category"
-        android:icon="@drawable/ic_settings_notification_drawer"
-        android:title="@string/notification_drawer_title" />
+        android:title="@string/notification_drawer_title" 
+        android:summary="@string/notification_drawer_summary" >
+    </PreferenceScreen>
     
     <!-- STweaks -->
     <PreferenceScreen

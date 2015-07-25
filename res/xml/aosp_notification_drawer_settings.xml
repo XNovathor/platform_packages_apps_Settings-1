@@ -27,7 +27,7 @@
             android:title="@string/qs_order_title"
             android:fragment="com.android.settings.aosp.qs.QSTiles" />
 
-        <com.android.settings.preference.SystemSettingSwitchPreference
+        <com.android.settings.preference.SecureSettingSwitchPreference
             android:key="sysui_qs_main_tiles"
             android:title="@string/qs_main_tiles_title"
             android:summaryOn="@string/qs_main_tiles_summary_on"
@@ -41,11 +41,5 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
-
-    <com.android.settings.preference.SystemSettingSwitchPreference
-        android:key="qs_location_advanced"
-        android:title="@string/qs_advanced_location_title"
-        android:summary="@string/qs_advanced_location_summary"
-        android:defaultValue="false" />
 
 </PreferenceScreen>
