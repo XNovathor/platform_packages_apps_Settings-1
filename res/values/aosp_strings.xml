@@ -115,5 +115,8 @@
     <string name="backlight_summary_enabled">Enabled</string>
     <string name="settings_reset_button">Reset</string>
 
+    <!-- Bluetooth accept all Filestypes -->
+    <string name="bluetooth_accept_all_files">Accept all file types</string>
+
 </resources>
  
