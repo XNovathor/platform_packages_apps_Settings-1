@@ -79,6 +79,13 @@
             android:targetClass="eu.chainfire.supersu.MainActivity" />
     </PreferenceScreen>
     
+    <!-- Button Backlight -->
+    <com.android.settings.preference.ButtonBacklightBrightness
+        android:key="button_backlight"
+        android:title="@string/button_backlight_title"
+        android:dialogTitle="@string/button_backlight_title"
+        android:persistent="false"/>
+    
     <!-- Change Log -->
     <PreferenceScreen android:key="changelog"
         android:title="@string/changelog_title"
