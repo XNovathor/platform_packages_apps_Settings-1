@@ -66,5 +66,8 @@
     <string name="notification_force_expand_title">Forza espansione notifiche</string>
     <string name="notification_force_expand_summary">Espandi automaticamente le notifiche delle applicazioni che supportano la funzione di espansione</string>
     
+    <!-- Gesture shortcuts -->
+    <string name="gesture_settings_summary">Permette di utilizzare le gesture per compiere azioni</string>
+    
 </resources>
  
