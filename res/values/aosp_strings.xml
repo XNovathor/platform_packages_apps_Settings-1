@@ -123,6 +123,7 @@
     <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
 
     <!-- Gesture shortcuts -->
+    <string name="gesture_settings_title">Gestures</string>
     <string name="gesture_settings_summary">Use gestures to perform actions</string>
     
 </resources>
