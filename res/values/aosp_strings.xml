@@ -126,5 +126,9 @@
     <string name="gesture_settings_title">Gestures</string>
     <string name="gesture_settings_summary">Use gestures to perform actions</string>
     
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam on Google+</string>
+    <string name="community_summary">Join our official community and keep yourself updated about the best software for your device</string>
+    
 </resources>
  

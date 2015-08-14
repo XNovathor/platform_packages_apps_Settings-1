@@ -69,5 +69,9 @@
     <!-- Gesture shortcuts -->
     <string name="gesture_settings_summary">Permette di utilizzare le gesture per compiere azioni</string>
     
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam su Google+</string>
+    <string name="community_summary">Entra a far parte della nostra community ufficiale e resta aggiornato sui migliori software per il tuo telefono</string>
+    
 </resources>
  

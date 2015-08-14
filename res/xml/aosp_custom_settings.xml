@@ -97,6 +97,14 @@
         android:dialogTitle="@string/button_backlight_title"
         android:persistent="false"/>
     
+    <!-- JDCTeam Google+ Community shortcut -->
+    <Preference android:key="community"
+        android:title="@string/community"
+        android:summary="@string/community_summary" >
+        <intent android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/u/0/communities/117218177262334420007" />
+    </Preference>
+    
     <!-- Change Log -->
     <PreferenceScreen android:key="changelog"
         android:title="@string/changelog_title"
