@@ -73,5 +73,9 @@
     <string name="community">JDCTeam su Google+</string>
     <string name="community_summary">Entra a far parte della nostra community ufficiale e resta aggiornato sui migliori software per il tuo telefono</string>
     
+    <!-- Remove notification sound during music play -->
+    <string name="interruptions_ignore_while_media_title">Prevenire abbassamento audio</string>
+    <string name="interruptions_ignore_while_media_summary">Permette di non ridurre il volume della riproduzione multimediale quando si ricevono notifiche</string>
+
 </resources>
  
