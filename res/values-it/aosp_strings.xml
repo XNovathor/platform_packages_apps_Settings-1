@@ -80,8 +80,10 @@
     <!-- Lockscreen Wallpaper -->
     <string name="lockscreen_wallpaper_title">Wallpaper schermata di blocco</string>
     <string name="lockscreen_wallpaper_summary">Permette di selezionare il wallpaper nella schermata di blocco</string>
-    <string name="lockscreen_wallpaper_set_title">Imposta il wallpaper nella schermata di blocco</string>
-    <string name="lockscreen_wallpaper_clear_title">Resetta il wallpaper nella schermata di blocco</string>
+    <string name="lockscreen_wallpaper_set_title">Imposta il wallpaper</string>
+    <string name="lockscreen_wallpaper_set_summary">Permette di impostare il wallpaper nella schermata di blocco</string>
+    <string name="lockscreen_wallpaper_clear_title">Resetta il wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_summary">Permette di resettare il wallpaper nella schermata di blocco</string>
     <string name="reset_lockscreen_wallpaper">Wallpaper Resettato</string>
     
 </resources>

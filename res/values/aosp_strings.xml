@@ -137,8 +137,10 @@
     <!-- Lockscreen Wallpaper -->
     <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_summary">Customize lockscreen wallpaper</string>
-    <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
-    <string name="lockscreen_wallpaper_clear_title">Reset lock screen wallpaper</string>
+    <string name="lockscreen_wallpaper_set_title">Set wallpaper</string>
+    <string name="lockscreen_wallpaper_set_summary">Set lock screen wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_title">Reset wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_summary">Reset lock screen wallpaper</string>
     <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper reset</string>
     
 </resources>
