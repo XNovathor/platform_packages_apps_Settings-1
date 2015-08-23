@@ -97,6 +97,13 @@
         android:dialogTitle="@string/button_backlight_title"
         android:persistent="false"/>
     
+    <!-- Lockscreen Wallpaper -->
+    <PreferenceScreen
+        android:fragment="com.android.settings.aosp.LockScreenSettings"
+        android:key="lockscreen_general_category"
+        android:title="@string/lockscreen_wallpaper_title"
+        android:summary="@string/lockscreen_wallpaper_summary" />
+    
     <!-- JDCTeam Google+ Community shortcut -->
     <Preference android:key="community"
         android:title="@string/community"

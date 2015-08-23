@@ -77,5 +77,12 @@
     <string name="interruptions_ignore_while_media_title">Prevenire abbassamento audio</string>
     <string name="interruptions_ignore_while_media_summary">Permette di non ridurre il volume della riproduzione multimediale quando si ricevono notifiche</string>
 
+    <!-- Lockscreen Wallpaper -->
+    <string name="lockscreen_wallpaper_title">Wallpaper schermata di blocco</string>
+    <string name="lockscreen_wallpaper_summary">Permette di selezionare il wallpaper nella schermata di blocco</string>
+    <string name="lockscreen_wallpaper_set_title">Imposta il wallpaper nella schermata di blocco</string>
+    <string name="lockscreen_wallpaper_clear_title">Resetta il wallpaper nella schermata di blocco</string>
+    <string name="reset_lockscreen_wallpaper">Wallpaper Resettato</string>
+    
 </resources>
  
