@@ -15,32 +15,133 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Change Log strings -->
-    <string name="changelog_title">Регистър на промени</string>
-    <string name="changelog_summary">Регистър на промени на AOSP 5.1.1</string>
-    <string name="changelog_loading">Зареждане на регистъра на промени\u2026</string>
-    <string name="changelog_error">Невъзможно зареждането на регистъра на промени</string>
+    <string name="changelog_title">Регистър на промените</string>
+    <string name="changelog_summary">Регистър на промените на AOSP 5.1.1</string>
+    <string name="changelog_loading">Зареждане на регистъра на промените\u2026</string>
+    <string name="changelog_error">Невъзможно зареждането на регистъра на промените</string>
     
     <!-- Dashboard -->
-    <string name="custom_settings_title">AOSP Опций</string>    
+    <string name="custom_settings_title">AOSP Настройки</string>    
     
     <!-- Power menu -->
-    <string name="power_menu_summary">Опций за меню на Бутона Включване</string>
+    <string name="power_menu_title">Меню Включване</string>
+    <string name="power_menu_summary">Настройки на Менюто Включване</string>
+    <string name="power_menu_reboot_title">Meню Презареждане</string>
+    <string name="power_menu_screenshot_title">Снимка на Екрана</string>
+    <string name="power_menu_airplane_title">Самолетен Режим</string>
+    <string name="power_menu_users_title">Меню на Потребитела</string>
+    <string name="power_menu_settings_title">Бърз достъп до настройките</string>
+    <string name="power_menu_lockdown_title">Заключване на устройството</string>
+    <string name="power_menu_bug_report_title">Доклад за грешки</string>
+    <string name="power_menu_sound_title">Звуков Панел</string>
+    <string name="power_menu_bug_report_disabled">Доклада за грешки е изключен във *Development Оptions*</string>
     
+    <!-- Recent apps -->
+    <string name="recent_app_title">Последни Приложения</string>
+    <string name="recent_app_summary">Няколко настройки за показване на последните приложения</string>
+    <string name="show_clear_all_recents_button_title">Премахни всички</string>
+    <string name="show_clear_all_recents_button_summary">Покажи бутона Премахни всички</string>
+    <string name="recents_clear_all_location_title">Изчисти всичките местоположения</string>
+    <string name="recents_clear_all_location_top_right">Горе в дясно</string>
+    <string name="recents_clear_all_location_top_left">Горе в ляво</string>
+    <string name="recents_clear_all_location_top_center">Горе в средата</string>
+    <string name="recents_clear_all_location_bottom_right">Долу в дясно</string>
+    <string name="recents_clear_all_location_bottom_left">Долу в ляво</string>
+    <string name="recents_clear_all_location_bottom_center">Долу в средата</string>
+    <string name="recents_searchbar_title">Панел за търсене</string>
+    <string name="recents_searchbar_summary">Покажи панела за търсене на Google на екрана на последните приложения</string>
+    <string name="recents_clear_all_dismiss_all_title">Изчисти всичките задачи</string>
+    <string name="recents_clear_all_dismiss_all_summary">Включи задачите от преден план, за да се затворят всички</string>
+
     <!-- Battery Options -->
-    <string name="battery_title">Опций на батерията</string>
+    <string name="battery_title">Настройки на батерията</string>
     <string name="battery_summary">Промяна на стила на батерията във статусния панел</string>
+    <string name="status_bar_battery_style_title">Положение на батерията</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикална икона</string>
+    <string name="status_bar_battery_style_icon_landscape">Хоризонтална икона</string>
+    <string name="status_bar_battery_style_circle">Гръгла икона</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрито</string>
+    <string name="status_bar_battery_percentage_title">Покажи процент за батерията</string>
+    <string name="status_bar_battery_percentage_default">Скрито</string>
+    <string name="status_bar_battery_percentage_text_inside">Вътре в иконата</string>
+    <string name="status_bar_battery_percentage_text_next">До иконата</string>
 
     <!-- STweaks -->
     <string name="stweaks_title">STweaks</string>
-    <string name="stweaks_summary">Опций Alucard Кernel</string>
+    <string name="stweaks_summary">Настройки Alucard Кernel</string>
     
     <!-- LayersManager -->
     <string name="layers_title">Администратор RRO</string>
     <string name="layers_summary">BitSyko App за администрация на RRO</string>
     
     <!-- SuperSU -->
-    <string name="supersu_title">Супер потребител</string>
-    <string name="supersu_summary">ChainFire App за администрация на супер потребител</string>
+    <string name="supersu_title">Супер Потребител</string>
+    <string name="supersu_summary">ChainFire App за администрация на Супер Потребител</string>
+    
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Известия</string>
+    <string name="notification_drawer_summary">Настройки на позицията и броя</string>
+    <string name="qs_category_title">Бързи Настройки</string>
+    <string name="qs_order_title">Избор и Ред</string>
+    <string name="add_qs">Постави ново</string>
+    <string name="qs_action_delete">Изтрии</string>
+    <string name="qs_action_add">Постави</string>
+    <string name="qs_action_no_more_tiles">Не са налични повече панели</string>
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_display_inversion">Промяна на цвета</string>
+    <string name="qs_tile_cellular_data">Connection Data</string>
+    <string name="qs_tile_airplane_mode">Самолетен Режим</string>
+    <string name="qs_tile_display_rotation">Завъртане</string>
+    <string name="qs_tile_flashlight">Фенер</string>
+    <string name="qs_tile_location">Местоположение</string>
+    <string name="qs_tile_cast_screen">Сподели екран</string>
+    <string name="qs_tile_hotspot">Hotspot</string>
+    <string name="qs_main_tiles_title">Увеличи първи ред</string>
+    <string name="qs_main_tiles_summary_on">Два панела на първи ред</string>
+    <string name="qs_main_tiles_summary_off">Три панела на всеки ред</string>
+    <string name="qs_advanced_location_title">Разширени настройки за местоположение</string>
+    <string name="qs_advanced_location_summary">Активиране на разширените настройки за местоположение в отдела Бързи Настройки</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Backlight</string>
+    <string name="button_backlight_enabled">Осветени бутони</string>
+    <string name="button_backlight_seekbar_title">Яркост на бутоните</string>
+    <string name="backlight_timeout_title">Време за изчакване на осветлението</string>
+    <string name="backlight_timeout_unlimited">Включени</string>
+    <string name="backlight_summary_disabled">Изключени</string>
+    <string name="backlight_summary_enabled_with_timeout">Включени за <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Активирани</string>
+    <string name="settings_reset_button">Възстановяване</string>
+
+    <!-- Bluetooth accept all Filestypes -->
+    <string name="bluetooth_accept_all_files">Приема всички видове файлове</string>
+    
+    <!-- Expandable notifications -->
+    <string name="notification_force_expand_title">Задължи уведомленията</string>
+    <string name="notification_force_expand_summary">Авто показване на уведомленията за приложения които го подкрепят</string>
+
+    <!-- Gesture shortcuts -->
+    <string name="gesture_settings_title">Жестове</string>
+    <string name="gesture_settings_summary">Използвайте жестове за извършване на действия</string>
+    
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam en Google+</string>
+    <string name="community_summary">Присъединете се към нашата общност и бъдете информирани за най-добрия софтуер за вашето устройство</string>
+    
+    <!-- Remove notification sound during music play -->
+    <string name="interruptions_ignore_while_media_title">Предотвратяване на звуковото намалемие</string>
+    <string name="interruptions_ignore_while_media_summary">Не се намалява силата на звука на възпроизвеждане на мултимедия, когато пристига уведомление</string>
+    
+    <!-- Lockscreen Wallpaper -->
+    <string name="lockscreen_wallpaper_title">Фон на заключващият екран</string>
+    <string name="lockscreen_wallpaper_summary">Персонализиране на фона на екрана за заключване</string>
+    <string name="lockscreen_wallpaper_set_title">Определи фон на екрана</string>
+    <string name="lockscreen_wallpaper_set_summary">Определете фона на екрана за заключване</string>
+    <string name="lockscreen_wallpaper_clear_title">Възстановяване на фона на екрана</string>
+    <string name="lockscreen_wallpaper_clear_summary">Възстановяване на фона на екрана за заключване</string>
+    <string name="reset_lockscreen_wallpaper">Възстановяване на фона на екрана за заключване</string>
     
 </resources>
  
