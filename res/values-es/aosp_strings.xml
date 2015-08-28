@@ -24,11 +24,48 @@
     <string name="custom_settings_title">AOSP Ajustes</string>    
     
     <!-- Power menu -->
+    <string name="power_menu_title">Menu de Encendido</string>
     <string name="power_menu_summary">Opciones del menu de Encendido</string>
+    <string name="power_menu_reboot_title">Menu de Reinicio</string>
+    <string name="power_menu_screenshot_title">Capturar Pantalla</string>
+    <string name="power_menu_airplane_title">Modo Avion</string>
+    <string name="power_menu_users_title">Menu de Usuario</string>
+    <string name="power_menu_settings_title">Acceso directo de configuraciónes</string>
+    <string name="power_menu_lockdown_title">Bloqueo de dispositivo</string>
+    <string name="power_menu_bug_report_title">Informe de error</string>
+    <string name="power_menu_sound_title">Panel de sonido</string>
+    <string name="power_menu_bug_report_disabled">Los informes de error están deshabilitados en las opciones de desarrollo</string>
     
+    <!-- Recent apps -->
+    <string name="recent_app_title">Aplicaciones recientes</string>
+    <string name="recent_app_summary">Varias opciones para la pantalla de aplicaciones recientes</string>
+    <string name="show_clear_all_recents_button_title">Borrar todos</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botón Borrar todo</string>
+    <string name="recents_clear_all_location_title">Borrar todas las ubicaciónes</string>
+    <string name="recents_clear_all_location_top_right">Parte superior derecha</string>
+    <string name="recents_clear_all_location_top_left">Parte superior izquierda</string>
+    <string name="recents_clear_all_location_top_center">Centro superior</string>
+    <string name="recents_clear_all_location_bottom_right">Parte inferior derecha</string>
+    <string name="recents_clear_all_location_bottom_left">Parte inferior izquierda</string>
+    <string name="recents_clear_all_location_bottom_center">Centro inferior</string>
+    <string name="recents_searchbar_title">Barra de búsqueda</string>
+    <string name="recents_searchbar_summary">Mostrar la barra de búsqueda de Google en la pantalla de aplicaciones recientes</string>
+    <string name="recents_clear_all_dismiss_all_title">Limpiar todas las tareas</string>
+    <string name="recents_clear_all_dismiss_all_summary">Incluya tareas de primer plano al borrar todo</string>
+
     <!-- Battery Options -->
     <string name="battery_title">Ajustes Batería</string>
     <string name="battery_summary">Cambiar el estilo de batería en la barra de estado</string>
+    <string name="status_bar_battery_style_title">Estado de la batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_icon_landscape">Icono horizontal</string>
+    <string name="status_bar_battery_style_circle">Icono circular</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Mostrar porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
 
     <!-- STweaks -->
     <string name="stweaks_title">STweaks</string>
@@ -42,5 +79,68 @@
     <string name="supersu_title">SuperSU</string>
     <string name="supersu_summary">App de ChainFire para SuperUsuario</string>
     
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Cajón de Notificaciónes</string>
+    <string name="notification_drawer_summary">Administrar la posición y el número</string>
+    <string name="qs_category_title">Ajustes rapidos</string>
+    <string name="qs_order_title">Seleccionar y ordenar</string>
+    <string name="add_qs">Añadir nuevo</string>
+    <string name="qs_action_delete">Borrar</string>
+    <string name="qs_action_add">Añadir</string>
+    <string name="qs_action_no_more_tiles">No hay más fichas disponibles</string>
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_display_inversion">Cambiar de color</string>
+    <string name="qs_tile_cellular_data">Conección de datos</string>
+    <string name="qs_tile_airplane_mode">Modo Avion</string>
+    <string name="qs_tile_display_rotation">Rotacion</string>
+    <string name="qs_tile_flashlight">linterna</string>
+    <string name="qs_tile_location">Localización</string>
+    <string name="qs_tile_cast_screen">Enviar pantalla</string>
+    <string name="qs_tile_hotspot">Hotspot</string>
+    <string name="qs_main_tiles_title">Agrandar primera fila</string>
+    <string name="qs_main_tiles_summary_on">Dos fichas en la primera fila</string>
+    <string name="qs_main_tiles_summary_off">Tres fichas en cada fila</string>
+    <string name="qs_advanced_location_title">Configuración de ubicación avanzada</string>
+    <string name="qs_advanced_location_summary">Habilitar configuración avanzada para la ubicación en los ajustes rápidos</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Luz de fondo</string>
+    <string name="button_backlight_enabled">Botones iluminados</string>
+    <string name="button_backlight_seekbar_title">Brillo Botones</string>
+    <string name="backlight_timeout_title">Tiempo de espera de Iluminación</string>
+    <string name="backlight_timeout_unlimited">No apagar</string>
+    <string name="backlight_summary_disabled">Apagados</string>
+    <string name="backlight_summary_enabled_with_timeout">Habilitados para <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Activados</string>
+    <string name="settings_reset_button">Restablecer</string>
+
+    <!-- Bluetooth accept all Filestypes -->
+    <string name="bluetooth_accept_all_files">Acepta todo tipo de archivos</string>
+    
+    <!-- Expandable notifications -->
+    <string name="notification_force_expand_title">Forzar notificaciones</string>
+    <string name="notification_force_expand_summary">Autoamplía las notificaciones de aplicaciones que lo soportan</string>
+
+    <!-- Gesture shortcuts -->
+    <string name="gesture_settings_title">Gestos</string>
+    <string name="gesture_settings_summary">Use gestos para realizar acciones</string>
+    
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam en Google+</string>
+    <string name="community_summary">Únete a nuestra comunidad oficial y mantente informado sobre el mejor software para tu dispositivo</string>
+    
+    <!-- Remove notification sound during music play -->
+    <string name="interruptions_ignore_while_media_title">Prevenir atenuación de audio</string>
+    <string name="interruptions_ignore_while_media_summary">No bajar el volumen de reproducción de medios cuando llega una notificación</string>
+    
+    <!-- Lockscreen Wallpaper -->
+    <string name="lockscreen_wallpaper_title">Fondo de la pantalla de bloqueo</string>
+    <string name="lockscreen_wallpaper_summary">Personalizar el fondo de la pantalla de bloqueo</string>
+    <string name="lockscreen_wallpaper_set_title">Establecer fondo de pantalla</string>
+    <string name="lockscreen_wallpaper_set_summary">Establecer fondo de la pantalla de bloqueo</string>
+    <string name="lockscreen_wallpaper_clear_title">Restablecer fondo de pantalla</string>
+    <string name="lockscreen_wallpaper_clear_summary">Restablecer el fondo de la pantalla de bloqueo</string>
+    <string name="reset_lockscreen_wallpaper">Restablecimiento del fondo de la pantalla de bloqueo</string>
+    
 </resources>
- 
