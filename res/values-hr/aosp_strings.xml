@@ -15,32 +15,133 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Change Log strings -->
-    <string name="changelog_title">Registracija za promjene</string>
+    <string name="changelog_title">Registracija promjena</string>
     <string name="changelog_summary">Registracija promjena za AOSP 5.1.1</string>
-    <string name="changelog_loading">Ucitavanje Registracije za promjene\u2026</string>
-    <string name="changelog_error">Nemoguce ucitavanje Registracije za promjene</string>
+    <string name="changelog_loading">Ucitavanje Registracije promjena\u2026</string>
+    <string name="changelog_error">Nemoguce Ucitavanje Registracije promjena</string>
     
     <!-- Dashboard -->
-    <string name="custom_settings_title">Postavke AOSP</string>    
+    <string name="custom_settings_title">AOSP Postavke</string>    
     
     <!-- Power menu -->
-    <string name="power_menu_summary">Opcije izbornika tipke za Ukljucivanje</string>
+    <string name="power_menu_title">Izbornik za Ukljucivanje</string>
+    <string name="power_menu_summary">Opcije Izbornika za Ukljucivanje</string>
+    <string name="power_menu_reboot_title">Izbornik Ponistenja</string>
+    <string name="power_menu_screenshot_title">ScreenShot</string>
+    <string name="power_menu_airplane_title">Profil bez mreze</string>
+    <string name="power_menu_users_title">Izbirnik korisnika</string>
+    <string name="power_menu_settings_title">Direktni pristup konfiguracije</string>
+    <string name="power_menu_lockdown_title">Zakljucavanje aparata</string>
+    <string name="power_menu_bug_report_title">Informiranje greski</string>
+    <string name="power_menu_sound_title">Zaslon zvukova</string>
+    <string name="power_menu_bug_report_disabled">Informacije gresaka je onemogucena u opcijama napredka </string>
     
+    <!-- Recent apps -->
+    <string name="recent_app_title">Posljednje aplikacije</string>
+    <string name="recent_app_summary">Razlicite opcije za zaslon od posljednjih aplikacija</string>
+    <string name="show_clear_all_recents_button_title">Brisanje svega</string>
+    <string name="show_clear_all_recents_button_summary">Pokasati tipku Brisanja svega</string>
+    <string name="recents_clear_all_location_title">Brisanje svih mjesta</string>
+    <string name="recents_clear_all_location_top_right">Gornji desno</string>
+    <string name="recents_clear_all_location_top_left">Gornji lijevo</string>
+    <string name="recents_clear_all_location_top_center">Gornji centar</string>
+    <string name="recents_clear_all_location_bottom_right">Doljnji desno</string>
+    <string name="recents_clear_all_location_bottom_left">Doljnji lijevo</string>
+    <string name="recents_clear_all_location_bottom_center">Doljnji centar</string>
+    <string name="recents_searchbar_title">Traka trazenja</string>
+    <string name="recents_searchbar_summary">Pokazati traku trazenja ot Google na zaslonu od zadnjih aplikacija</string>
+    <string name="recents_clear_all_dismiss_all_title">Ocistiti sve poslove</string>
+    <string name="recents_clear_all_dismiss_all_summary">Ukljuci poslove iz prvog plana kod brisanja svega</string>
+
     <!-- Battery Options -->
-    <string name="battery_title">Postavke Baterije</string>
-    <string name="battery_summary">Mijenjanje stila baterije na statusnoj traci</string>
+    <string name="battery_title">postavke baterije</string>
+    <string name="battery_summary">Promeni stil na traci statusa</string>
+    <string name="status_bar_battery_style_title">Status baterije</string>
+    <string name="status_bar_battery_style_icon_portrait">Vertikalni ikon</string>
+    <string name="status_bar_battery_style_icon_landscape">Horizontalni ikon</string>
+    <string name="status_bar_battery_style_circle">Okrugli ikon</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Skriveno</string>
+    <string name="status_bar_battery_percentage_title">Pokazi postotak baterije</string>
+    <string name="status_bar_battery_percentage_default">Skriveno</string>
+    <string name="status_bar_battery_percentage_text_inside">U ikonu</string>
+    <string name="status_bar_battery_percentage_text_next">Pored ikona</string>
 
     <!-- STweaks -->
     <string name="stweaks_title">STweaks</string>
-    <string name="stweaks_summary">Postavke Kernel Alucard</string>
+    <string name="stweaks_summary">Postavke kernel Alucard</string>
     
     <!-- LayersManager -->
-    <string name="layers_title">Administrador za RRO</string>
+    <string name="layers_title">Administracija slojeva</string>
     <string name="layers_summary">App od BitSyko za administraciju RRO</string>
     
     <!-- SuperSU -->
     <string name="supersu_title">SuperSU</string>
-    <string name="supersu_summary">App od ChainFire za SuperKorisnika</string>
+    <string name="supersu_summary">App od ChainFire za superkorisnika</string>
+    
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Ladica za obavijesti</string>
+    <string name="notification_drawer_summary">Administriraj poziciju i broj</string>
+    <string name="qs_category_title">Brze postavke</string>
+    <string name="qs_order_title">Odaberi i poslozi</string>
+    <string name="add_qs">Dodati novi</string>
+    <string name="qs_action_delete">Brisati</string>
+    <string name="qs_action_add">Dodati</string>
+    <string name="qs_action_no_more_tiles">Nema slobodnih plocica</string>
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_display_inversion">Promjeniti boju</string>
+    <string name="qs_tile_cellular_data">Veza podataka</string>
+    <string name="qs_tile_airplane_mode">Profil bez mreze</string>
+    <string name="qs_tile_display_rotation">Rotacija</string>
+    <string name="qs_tile_flashlight">Svetiljka</string>
+    <string name="qs_tile_location">Lokalizacija</string>
+    <string name="qs_tile_cast_screen">Posalji zaslon</string>
+    <string name="qs_tile_hotspot">Hotspot</string>
+    <string name="qs_main_tiles_title">Povecati prvi red</string>
+    <string name="qs_main_tiles_summary_on">Dve plocice u prvom redu</string>
+    <string name="qs_main_tiles_summary_off">Tri plocice u svakom redu</string>
+    <string name="qs_advanced_location_title">Napredne postavke lokacija</string>
+    <string name="qs_advanced_location_summary">Omoguciti napredne postavke za mjesto u brzim postavkama</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Svijetlo u pozadini</string>
+    <string name="button_backlight_enabled">Osvijetljenje tipki</string>
+    <string name="button_backlight_seekbar_title">Svjetlost tipki</string>
+    <string name="backlight_timeout_title">Vrijeme cekanja za osvijetljenje</string>
+    <string name="backlight_timeout_unlimited">ne ugasiti</string>
+    <string name="backlight_summary_disabled">Ugaseni</string>
+    <string name="backlight_summary_enabled_with_timeout">Ukljuceni za <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Aktivirani</string>
+    <string name="settings_reset_button">Reset</string>
+
+    <!-- Bluetooth accept all Filestypes -->
+    <string name="bluetooth_accept_all_files">Prihvaca svu vrstu zapisa</string>
+    
+    <!-- Expandable notifications -->
+    <string name="notification_force_expand_title">Prisiliti obavijesti</string>
+    <string name="notification_force_expand_summary">Autopovecaj obavijesti za aplikacije koje ga podrzavaju</string>
+
+    <!-- Gesture shortcuts -->
+    <string name="gesture_settings_title">Geste</string>
+    <string name="gesture_settings_summary">Koristiti geste za obavljenje radnji</string>
+    
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam u Google+</string>
+    <string name="community_summary">Pridruzite se nasoj sluzbenoj zajednici i ostati informirani o najboljem softveru za svoj uredaj</string>
+    
+    <!-- Remove notification sound during music play -->
+    <string name="interruptions_ignore_while_media_title">Sprijeciti oslabljenje zvuka</string>
+    <string name="interruptions_ignore_while_media_summary">Ne smanjujte jacinu zvuka kada dode obavijest</string>
+    
+    <!-- Lockscreen Wallpaper -->
+    <string name="lockscreen_wallpaper_title">Pozadina zakljucanog zaslona</string>
+    <string name="lockscreen_wallpaper_summary">Prilagoditi pozadinu zakljucanog zaslona </string>
+    <string name="lockscreen_wallpaper_set_title">Postavi pozadinu zaslona</string>
+    <string name="lockscreen_wallpaper_set_summary">Postavi pozadinu zakljucanog zaslona</string>
+    <string name="lockscreen_wallpaper_clear_title">Vratiti pozadinu zaslona</string>
+    <string name="lockscreen_wallpaper_clear_summary">Vratiti pozadinu zakljucanog zaslona</string>
+    <string name="reset_lockscreen_wallpaper">Vracanje pozadinu zakljucanog zaslona</string>
     
 </resources>
  
