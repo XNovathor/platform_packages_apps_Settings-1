@@ -116,7 +116,7 @@
     <string name="settings_reset_button">Réinitialisé</string>
 
     <!-- Bluetooth accept all Filestypes -->
-    <string name="bluetooth_accept_all_files">Accepter tous types de fichier</string><
+    <string name="bluetooth_accept_all_files">Accepter tous types de fichier</string>
     
     <!-- Expandable notifications -->
     <string name="notification_force_expand_title">Forcer notifications élargies</string>
