@@ -1,35 +1,35 @@
-function varargout = noigui(varargin)
-% NOIGUI MATLAB code for noigui.fig
-%      NOIGUI, by itself, creates a new NOIGUI or raises the existing
+function varargout = NOI_GUI(varargin)
+% NOI_GUI MATLAB code for NOI_GUI.fig
+%      NOI_GUI, by itself, creates a new NOI_GUI or raises the existing
 %      singleton*.
 %
-%      H = NOIGUI returns the handle to a new NOIGUI or the handle to
+%      H = NOI_GUI returns the handle to a new NOI_GUI or the handle to
 %      the existing singleton*.
 %
-%      NOIGUI('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in NOIGUI.M with the given input arguments.
+%      NOI_GUI('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in NOI_GUI.M with the given input arguments.
 %
-%      NOIGUI('Property','Value',...) creates a new NOIGUI or raises the
+%      NOI_GUI('Property','Value',...) creates a new NOI_GUI or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before noigui_OpeningFcn gets called.  An
+%      applied to the GUI before NOI_GUI_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to noigui_OpeningFcn via varargin.
+%      stop.  All inputs are passed to NOI_GUI_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help noigui
+% Edit the above text to modify the response to help NOI_GUI
 
-% Last Modified by GUIDE v2.5 18-Dec-2015 19:43:12
+% Last Modified by GUIDE v2.5 18-Dec-2015 19:59:41
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @noigui_OpeningFcn, ...
-                   'gui_OutputFcn',  @noigui_OutputFcn, ...
+                   'gui_OpeningFcn', @NOI_GUI_OpeningFcn, ...
+                   'gui_OutputFcn',  @NOI_GUI_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -44,34 +44,38 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before noigui is made visible.
-function noigui_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before NOI_GUI is made visible.
+function NOI_GUI_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to noigui (see VARARGIN)
+% varargin   command line arguments to NOI_GUI (see VARARGIN)
 
-% Choose default command line output for noigui
+% Choose default command line output for NOI_GUI
 handles.output = hObject;
 
 % Update handles structure
 guidata(hObject, handles);
 
-
-% UIWAIT makes noigui wait for user response (see UIRESUME)
+% UIWAIT makes NOI_GUI wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 
 % --- Outputs from this function are returned to the command line.
-function varargout = noigui_OutputFcn(hObject, eventdata, handles) 
+function varargout = NOI_GUI_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 % Get default command line output from handles structure
+    
+
+
 varargout{1} = handles.output;
+
+
 
 
 function edit1_Callback(hObject, eventdata, handles)
@@ -80,6 +84,8 @@ function edit1_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 % Hints: get(hObject,'String') returns contents of edit1 as text
+   % F1=str2double(get(hObject,'String')) returns contents of edit1 as a double
+
 
 % --- Executes during object creation, after setting all properties.
 function edit1_CreateFcn(hObject, eventdata, handles)
@@ -93,30 +99,35 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-% --- Executes on button press in pushbutton2.
-function pushbutton2_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton2 (see GCBO)
+
+% --- Executes on button press in pushbutton1.
+function pushbutton1_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 Fs=str2double(get(handles.edit1,'String'))
 fLow=str2double(get(handles.edit2,'String'))
 
+
 fsig = 50; % Hz
 filterOrder =10; % Hz
-%Fs=600; % Sampling frequency
+% fLow =60; % Hz
+% Fs=600; % Sampling frequency
 Rp=2;
 nPoint = 256;
 t=(1:nPoint)/Fs; % time axis
 s = 1 * sin(2*pi*t*3*fsig) + 2 * sin(2*pi*t*0.5*fsig);
 [b, a] = butter( filterOrder, fLow*2/Fs);
 [H,wf]=freqz(b,a,nPoint); % Calculate filter transmitance
-axes(handles.axes1)
-plot(wf*Fs/(2*pi), abs(H),'r'); % Plot filter transmitance
 axes(handles.axes2)
+plot(wf*Fs/(2*pi), abs(H),'r'); % Plot filter transmitance
 signalFiltered = filter(b,a,s);
+axes(handles.axes3)
 plot(t,signalFiltered ,'r',t,s,'b');
 xlabel('Time (seconds)'); ylabel('Time waveform');
+
+
 
 function edit2_Callback(hObject, eventdata, handles)
 % hObject    handle to edit2 (see GCBO)
@@ -124,6 +135,8 @@ function edit2_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 % Hints: get(hObject,'String') returns contents of edit2 as text
+%        str2double(get(hObject,'String')) returns contents of edit2 as a double
+
 
 % --- Executes during object creation, after setting all properties.
 function edit2_CreateFcn(hObject, eventdata, handles)
@@ -136,4 +149,3 @@ function edit2_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
-
